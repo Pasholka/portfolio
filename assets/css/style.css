@@ -762,7 +762,8 @@ a {
   top: 50%;
   left: 50%;
   max-width: 480px;
-  padding: 33px 88px;
+  width: 100%;
+  padding: 33px 50px;
   background-color: #828282;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
