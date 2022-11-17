@@ -834,6 +834,8 @@ a {
 
 .form__message {
   padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-transform: uppercase;
   text-align: center;
   height: 100px;
