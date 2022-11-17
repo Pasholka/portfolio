@@ -1,0 +1,39 @@
+.navigation
+  margin-top: 32px
+  margin-bottom: 32px
+  &-home
+    text-align: left !important
+  &-link
+    text-decoration: none
+    font-family: Gilroy-Bold
+    font-size: 18px
+    line-height: 1.2
+    color: $text-color
+    text-transform: capitalize
+    transition: .5s
+    &:hover
+      color: $dark
+      font-size: 22px
+    &__home
+      color: $dark
+      text-decoration: none
+      font-family: Gilroy-Bold
+      font-size: 25px
+      line-height: 1.2
+      color: #828282
+      text-transform: capitalize
+
+  &-list
+    display: flex
+    justify-content: space-between
+    align-items: center
+    list-style: none
+    height: 30px
+    &__itam
+      padding-left: 10px
+      padding-right: 10px
+      width: 100%
+      text-align: right
+@media screen and ( max-width: 790px )
+  .navigation
+    display: none

@@ -1,0 +1,45 @@
+.home
+  &__m
+    margin-top: 40px
+  &-img
+    margin-bottom: 104px
+    margin-top: 50px
+  &-list
+    list-style: none
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.author
+  font-family: Gilroy-Bold
+  font-size: 48px
+  line-height: 1.2
+
+  &-designer
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 1.2
+  &__rotate
+    // transform: rotate(-90deg)
+    font-family: Gilroy-Medium
+    font-size: 18px
+    line-height: 1.2
+    display: inline-block
+    color: $dark
+.hero
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-top: 40px
+.language
+  transform: rotate(-90deg)
+  &_hr
+    &::after
+      content: ' |'
+      color: $dark
+a
+  text-decoration: none
+
+@media (max-width: 790px)
+  .author
+    display: none
